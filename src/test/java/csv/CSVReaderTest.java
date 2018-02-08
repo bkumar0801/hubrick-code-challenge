@@ -26,8 +26,8 @@ public class CSVReaderTest {
         List<List<String>> records = CSVReader.readRecords();
         assertThat(records)
                 .contains(Arrays.asList("username", "visited"))
-                .contains(Arrays.asList("jdoe", "10"))
-                .contains(Arrays.asList("kolorobot", "4"))
+                .contains(Arrays.asList("minirobo", "10"))
+                .contains(Arrays.asList("testrobo", "40"))
                 .hasSize(3);
     }
 }
